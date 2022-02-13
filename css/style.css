@@ -1,0 +1,110 @@
+@import "../css/null.css";
+@import "../css/fonts.css";
+
+/* Тело страницы */
+
+body {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    color: #1e212c;
+}
+
+.wrapper {
+    width: 1233px;
+    margin: 0 auto;
+}
+
+.main_content_1 {
+    width: 390px;
+    margin: 20px auto;
+}
+
+/* Пункты -  название*/
+
+h2 {
+    text-transform: uppercase;
+    color: #1e212c;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+.h2 {
+    margin-bottom: 8px;
+}
+
+.h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1e212c;
+    margin-bottom: 40px;
+}
+
+/* Пункты */
+
+.list {
+    padding: 0 0 24px 0;
+}
+
+.list li {
+    margin: 0 0 10px 0;
+    padding-left: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.list li:last-child {
+    margin: 0 0 0 0;
+}
+
+.list li:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 10px 0 -30px;
+    background: url(../img/check.png) 0 5px no-repeat;
+}
+
+/* Кнопка */
+.btn__orange {
+    width: 161px;
+    height: 44px;
+    border-radius: 4px;
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+}
+
+a {
+    color: #ffffff;
+}
+.btn_text {
+    margin: 0 auto;
+    width: 97px;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    line-height: 44px;
+    text-decoration: none;
+}
+
+/* Подчеркивание */
+.h1-2 {
+    margin-top: 50px;
+    color: #1e212c;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+.h1-2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #1e212c;
+}
