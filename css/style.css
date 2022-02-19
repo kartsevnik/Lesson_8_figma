@@ -10,12 +10,12 @@ body {
 
 .wrapper {
     width: 1233px;
-    margin: 0 auto;
 }
 
 .main_content_1 {
     width: 390px;
-    margin: 20px auto;
+    margin: 0px auto;
+    padding: 20px 0;
 }
 
 /* Пункты -  название*/
@@ -67,28 +67,25 @@ h2 {
     height: 20px;
     display: inline-block;
     margin: 0 10px 0 -30px;
-    background: url(../img/check.png) 0 5px no-repeat;
+    background: url(../img/check.png) left 5px no-repeat;
 }
 
 /* Кнопка */
-.btn__orange {
-    width: 161px;
-    height: 44px;
-    border-radius: 4px;
+
+.btn {
+    display: inline-block;
     background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+    border-radius: 4px;
 }
 
-a {
+.btn a {
     color: #ffffff;
-}
-.btn_text {
-    margin: 0 auto;
-    width: 97px;
     font-size: 14px;
-    color: #ffffff;
-    letter-spacing: 0.5px;
+    font-style: normal;
+    font-weight: bold;
     line-height: 44px;
-    text-decoration: none;
+    padding: 20px 32px;
+    letter-spacing: 0.5px;
 }
 
 /* Подчеркивание */
